@@ -1,0 +1,965 @@
+# Home Assistant Entities — 345 N Main
+
+Total: 877 entities, generated from /api/states.
+
+## alarm_control_panel (1)
+
+- `alarm_control_panel.345_n_main_udm_pro_alarm_manager` — 345 N Main UDM Pro Alarm Manager  *(disarmed)*
+
+## automation (4)
+
+- `automation.laundry_water_detected` — Laundry Water Detected  *(on)*
+- `automation.outdoor_led_off_in_morning` — Outdoor LEDs -  Off In Morning  *(on)*
+- `automation.water_leak_alert` — Water Leak Alert  *(on)*
+- `automation.wled_turn_on_at_sunset` — Outdoor LEDs - On At  Sunset  *(on)*
+
+## binary_sensor (74)
+
+- `binary_sensor.345_n_main_udm_pro_ssd_1` — 345 N Main UDM Pro SSD 1  *(off)*
+- `binary_sensor.amcrest_ip8m_t2669e_ai_is_dark` — Amcrest IP8M-T2669E-AI Is dark  *(off)*
+- `binary_sensor.amcrest_ip8m_t2669e_ai_is_dark_2` — Amcrest IP8M-T2669E-AI Is dark  *(unavailable)*
+- `binary_sensor.amcrest_ip8m_t2669e_ai_motion` — Amcrest IP8M-T2669E-AI Motion  *(off)*
+- `binary_sensor.amcrest_ip8m_t2669e_ai_motion_2` — Amcrest IP8M-T2669E-AI Motion  *(unavailable)*
+- `binary_sensor.amcrest_ip8m_vd2793e_is_dark` — Amcrest IP8M-VD2793E Is dark  *(off)*
+- `binary_sensor.amcrest_ip8m_vd2793e_motion` — Amcrest IP8M-VD2793E Motion  *(off)*
+- `binary_sensor.basement_cam_is_dark` — Basement Cam Is dark  *(off)*
+- `binary_sensor.basement_cam_motion` — Basement Cam Motion  *(off)*
+- `binary_sensor.basement_motion` — Basement Motion  *(unavailable)*
+- `binary_sensor.basement_occupancy` — Basement Occupancy  *(unavailable)*
+- `binary_sensor.bowernas01_drive_1_below_min_remaining_life` — BowerNAS01 (Drive 1) Below min remaining life  *(off)*
+- `binary_sensor.bowernas01_drive_1_exceeded_max_bad_sectors` — BowerNAS01 (Drive 1) Exceeded max bad sectors  *(off)*
+- `binary_sensor.bowernas01_drive_2_below_min_remaining_life` — BowerNAS01 (Drive 2) Below min remaining life  *(off)*
+- `binary_sensor.bowernas01_drive_2_exceeded_max_bad_sectors` — BowerNAS01 (Drive 2) Exceeded max bad sectors  *(off)*
+- `binary_sensor.bowernas01_security_status` — BowerNAS01 Security status  *(off)*
+- `binary_sensor.breezeway_cam_is_dark` — Breezeway Cam Is dark  *(unavailable)*
+- `binary_sensor.breezeway_cam_motion` — Breezeway Cam Motion  *(unavailable)*
+- `binary_sensor.family_room_cam_is_dark` — Family Room Cam Is dark  *(off)*
+- `binary_sensor.family_room_cam_motion` — Family Room Cam Motion  *(off)*
+- `binary_sensor.family_room_motion` — Family Room Motion  *(off)*
+- `binary_sensor.family_room_occupancy` — Family Room Occupancy  *(on)*
+- `binary_sensor.front_door_is_dark` — Front Door Is dark  *(off)*
+- `binary_sensor.front_door_motion` — Front Door Motion  *(off)*
+- `binary_sensor.garage_inside_cam_is_dark` — Garage Inside Cam Is dark  *(unavailable)*
+- `binary_sensor.garage_inside_cam_motion` — Garage Inside Cam Motion  *(unavailable)*
+- `binary_sensor.garage_ne_cam_is_dark` — Garage NE Cam Is dark  *(unavailable)*
+- `binary_sensor.garage_ne_cam_motion` — Garage NE Cam Motion  *(unavailable)*
+- `binary_sensor.garage_northwest_is_dark` — Garage - NorthWest Is dark  *(off)*
+- `binary_sensor.garage_northwest_motion` — Garage - NorthWest Motion  *(off)*
+- `binary_sensor.kitchen_cam_1_is_dark` — Kitchen Cam 1 Is dark  *(off)*
+- `binary_sensor.kitchen_cam_1_motion` — Kitchen Cam 1 Motion  *(off)*
+- `binary_sensor.kitchen_cam_2_is_dark` — Kitchen Cam 2 Is dark  *(off)*
+- `binary_sensor.kitchen_cam_2_motion` — Kitchen Cam 2 Motion  *(off)*
+- `binary_sensor.living_room_cam_is_dark` — Living Room Cam Is dark  *(off)*
+- `binary_sensor.living_room_cam_motion` — Living Room Cam Motion  *(off)*
+- `binary_sensor.master_cam_is_dark` — Master Cam Is dark  *(unavailable)*
+- `binary_sensor.master_cam_motion` — Master Cam Motion  *(unavailable)*
+- `binary_sensor.mindy_office_is_dark` — Mindy Office Is dark  *(unavailable)*
+- `binary_sensor.mindy_office_motion` — Mindy Office Motion  *(unavailable)*
+- `binary_sensor.remote_ui` — Remote UI  *(on)*
+- `binary_sensor.reolink_rlc_823s2_is_dark` — REOLINK RLC-823S2 Is dark  *(unavailable)*
+- `binary_sensor.reolink_rlc_823s2_motion` — REOLINK RLC-823S2 Motion  *(unavailable)*
+- `binary_sensor.shellyfloodg4_d885ace6bf1c_cable_unplugged` — shellyfloodg4-d885ace6bf1c Cable unplugged  *(off)*
+- `binary_sensor.shellyfloodg4_d885ace6bf1c_flood` — Kitchen Flood Detector  *(off)*
+- `binary_sensor.shellyfloodg4_d885ace6bf1c_mute` — shellyfloodg4-d885ace6bf1c Mute  *(off)*
+- `binary_sensor.side_door_camera_is_dark` — Side Door Camera Is dark  *(off)*
+- `binary_sensor.side_door_camera_motion` — Side Door Camera Motion  *(off)*
+- `binary_sensor.sonoff_water_detector` — Laundry Flood Detector - Sonoff  *(off)*
+- `binary_sensor.sonoff_waterdetector_bath` — Bath Flood Detector - Sonoff  *(off)*
+- `binary_sensor.south_patio_cam_is_dark` — South Patio Cam Is dark  *(off)*
+- `binary_sensor.south_patio_cam_motion` — South Patio Cam Motion  *(off)*
+- `binary_sensor.south_side_animal` — South Side Animal  *(off)*
+- `binary_sensor.south_side_is_dark` — South Side Is dark  *(off)*
+- `binary_sensor.south_side_motion` — South Side Motion  *(off)*
+- `binary_sensor.south_side_motion_2` — South Side Motion  *(off)*
+- `binary_sensor.south_side_person` — South Side Person  *(off)*
+- `binary_sensor.south_side_vehicle` — South Side Vehicle  *(off)*
+- `binary_sensor.sunroom_cam_is_dark` — Sunroom Cam Is dark  *(off)*
+- `binary_sensor.sunroom_cam_motion` — Sunroom Cam Motion  *(off)*
+- `binary_sensor.tumble_dryer_door` — Tumble dryer Door  *(on)*
+- `binary_sensor.tumble_dryer_mobile_start` — Tumble dryer Mobile start  *(off)*
+- `binary_sensor.tumble_dryer_notification_active` — Tumble dryer Notification active  *(off)*
+- `binary_sensor.tumble_dryer_problem` — Tumble dryer Problem  *(off)*
+- `binary_sensor.tumble_dryer_remote_control` — Tumble dryer Remote control  *(on)*
+- `binary_sensor.tumble_dryer_smart_grid` — Tumble dryer Smart grid  *(off)*
+- `binary_sensor.washing_machine_door` — Washing machine Door  *(off)*
+- `binary_sensor.washing_machine_mobile_start` — Washing machine Mobile start  *(off)*
+- `binary_sensor.washing_machine_notification_active` — Washing machine Notification active  *(off)*
+- `binary_sensor.washing_machine_problem` — Washing machine Problem  *(off)*
+- `binary_sensor.washing_machine_remote_control` — Washing machine Remote control  *(on)*
+- `binary_sensor.washing_machine_smart_grid` — Washing machine Smart grid  *(off)*
+- `binary_sensor.west_patio_is_dark` — West Patio Is dark  *(off)*
+- `binary_sensor.west_patio_motion` — West Patio Motion  *(off)*
+
+## button (38)
+
+- `button.ai_theta_adopt_device` — AI Theta Adopt device  *(unavailable)*
+- `button.amcrest_adopt_device` — Adopt device  *(unavailable)*
+- `button.amcrest_adopt_device_2` — Amcrest Adopt device  *(unknown)*
+- `button.basement_identify` — Basement Identify  *(unknown)*
+- `button.bowernas01_reboot` — BowerNAS01 Restart  *(unknown)*
+- `button.bowernas01_shutdown` — BowerNAS01 Shut down  *(unknown)*
+- `button.dig_uno_v3_restart` — Restart  *(unavailable)*
+- `button.family_room_clear_hold` — Family Room Clear Hold  *(unknown)*
+- `button.family_room_identify` — Family Room Identify  *(unknown)*
+- `button.g6_turret_adopt_device` — G6 Turret Adopt device  *(unavailable)*
+- `button.g6_turret_adopt_device_2` — G6 Turret Adopt device  *(unavailable)*
+- `button.general_adopt_device` — General Adopt device  *(unknown)*
+- `button.hugh_bedroom_clear_hold` — Hugh Bedroom Clear Hold  *(2026-06-06T13:34:54.972711+00:00)*
+- `button.hugh_bedroom_identify` — Hugh Bedroom Identify  *(unknown)*
+- `button.levds_dimmer_1e2e_identify` — Master Spotlight Identify  *(unknown)*
+- `button.levds_dimmer_492f_identify` — Entryway Light Identify  *(unknown)*
+- `button.levds_dimmer_4944_identify` — Garage carriage lights Identify  *(unknown)*
+- `button.levds_dimmer_8e3c_identify` — Garage West Spotlights Identify  *(unknown)*
+- `button.levds_dimmer_c495_identify` — Patio Basement Lights Identify  *(unknown)*
+- `button.levds_dimmer_c49a_identify` — Side DoorLight Identify  *(unknown)*
+- `button.levds_dimmer_c526_identify` — Basement Patio carriage Lights Identify  *(unknown)*
+- `button.levds_dimmer_cf33_identify` — West Patio SpotLights Identify  *(unavailable)*
+- `button.levds_dimmer_f1fd_identify` — Master Carriage Lights Identify  *(unknown)*
+- `button.levds_dimmer_f202_identify` — West Patio Carriage Lights Identify  *(unknown)*
+- `button.levds_dimmer_f20a_identify` — South Patio Carriage Lights Identify  *(unknown)*
+- `button.levds_dimmer_f41d_identify` — Front Door Porch Light Identify  *(unknown)*
+- `button.levds_dimmer_f797_identify` — Garage Porch Lights Identify  *(unknown)*
+- `button.master_bedroom_clear_hold` — Master Bedroom Clear Hold  *(unknown)*
+- `button.master_bedroom_identify` — Master Bedroom Identify  *(unknown)*
+- `button.sonoff_water_detector_identify` — Laundry Flood Detector - Sonoff Identify  *(2026-02-28T18:44:40.566704+00:00)*
+- `button.sonoff_waterdetector_bath_identify` — Bath Flood Detector - Sonoff Identify  *(unknown)*
+- `button.third_party_camera_adopt_device` — Adopt device  *(unavailable)*
+- `button.wled_froom_restart` — Restart  *(unavailable)*
+- `button.wled_hallway_restart` — WLED-HALLWAY Restart  *(unavailable)*
+- `button.wled_kitchen_restart` — WLED-KITCHEN Restart  *(unavailable)*
+- `button.wled_patiobasement_restart` — Restart  *(unavailable)*
+- `button.wled_patioeast_restart` — Restart  *(unavailable)*
+- `button.wled_westpatio_restart` — Restart  *(unavailable)*
+
+## camera (11)
+
+- `camera.family_room_cam` — Family Room Cam  *(unavailable)*
+- `camera.front_door_cam` — Front Door Cam  *(unavailable)*
+- `camera.garage_inside_cam` — Garage Inside Cam  *(unavailable)*
+- `camera.garage_nw_cam` — Garage NW Cam  *(unavailable)*
+- `camera.kitchen1_cam` — Kitchen1 Cam  *(unavailable)*
+- `camera.kitchen2_cam` — Kitchen2 Cam  *(unavailable)*
+- `camera.side_door_cam` — Side Door Cam  *(unavailable)*
+- `camera.south_patio_cam` — South Patio Cam  *(unavailable)*
+- `camera.south_side_fluent` — South Side Fluent  *(idle)*
+- `camera.sunroom_camera` — Sunroom Camera  *(unavailable)*
+- `camera.west_patio_cam` — West Patio Cam  *(unavailable)*
+
+## climate (3)
+
+- `climate.family_room` — Family Room  *(heat_cool)*
+- `climate.hugh_bedroom` — Hugh Bedroom  *(cool)*
+- `climate.master_bedroom` — Master Bedroom  *(heat_cool)*
+
+## conversation (1)
+
+- `conversation.home_assistant` — Home Assistant  *(unknown)*
+
+## device_tracker (3)
+
+- `device_tracker.doug_iphone` — Doug iPhone  *(not_home)*
+- `device_tracker.doug_iphone_13` — Doug iPhone 13  *(not_home)*
+- `device_tracker.douglass_ipad` — Douglas’s iPad  *(not_home)*
+
+## event (1)
+
+- `event.backup_automatic_backup` — Backup Automatic backup  *(2026-06-28T09:36:08.974+00:00)*
+
+## hubitat (1)
+
+- `hubitat.hub` —   *(unavailable)*
+
+## light (53)
+
+- `light.back_patio_lights` — Back Patio Lights  *(off)*
+- `light.back_stair_lights_ge_12720` — Back Stair Lights - GE 12720  *(off)*
+- `light.basement_coach_lights` — Basement Coach Lights  *(off)*
+- `light.bedroom_outdoor_light_right` — Master Carriage Lights  *(off)*
+- `light.dig_uno_v3` —   *(unavailable)*
+- `light.drive_lights` — Drive Lights  *(off)*
+- `light.entryway_light` — Entryway Light  *(off)*
+- `light.front_door_light` — Front Door Light  *(off)*
+- `light.front_lights_ge_45605_outlet` — Front Lights - GE 45605 Outlet  *(on)*
+- `light.garage_outdoor_lights` — Garage Carriage Lights  *(on)*
+- `light.garage_porch_lights` — Garage Porch Lights  *(off)*
+- `light.garage_spotlight` — Garage Spotlight  *(off)*
+- `light.levds_dimmer_1e2e` — Master Spotlight  *(off)*
+- `light.levds_dimmer_492f` — Entryway Light  *(off)*
+- `light.levds_dimmer_4944` — Garage carriage lights  *(on)*
+- `light.levds_dimmer_8e3c` — Garage West Spotlights  *(off)*
+- `light.levds_dimmer_c495` — Patio Basement Lights  *(off)*
+- `light.levds_dimmer_c49a` — Side DoorLight  *(off)*
+- `light.levds_dimmer_c526` — Basement Patio carriage Lights  *(off)*
+- `light.levds_dimmer_cf33` — West Patio Flood Lights  *(unavailable)*
+- `light.levds_dimmer_f1fd` — Master Carriage Lights  *(off)*
+- `light.levds_dimmer_f202` — West Patio Carriage Lights  *(off)*
+- `light.levds_dimmer_f20a` — South Patio Carriage Lights  *(off)*
+- `light.levds_dimmer_f41d` — Front Door Porch Light  *(off)*
+- `light.levds_dimmer_f797` — Garage Porch Lights  *(off)*
+- `light.lr_left_light` — LR Left Light  *(off)*
+- `light.lr_right_light` — LR Right Light  *(off)*
+- `light.mindy_lights_leviton_dzpa1_1lw` — Mindy Lights - Leviton DZPA1-1LW  *(on)*
+- `light.outdoor_light_controller` — Outdoor Light Controller  *(on)*
+- `light.outdoor_light_controller_2` — Outdoor light controller 2  *(on)*
+- `light.outdoor_master_light_left` — Master Spot Light  *(off)*
+- `light.patio_basement_lights` — Patio Basement Lights  *(off)*
+- `light.post_street_light` — Post Street Light  *(off)*
+- `light.side_door_light` — Side Door Light  *(off)*
+- `light.south_patio_carriage_lights` — South Patio Carriage Lights  *(off)*
+- `light.south_side_floodlight` — South Side Floodlight  *(off)*
+- `light.sunny_tree_light` — Sunny Tree Light  *(on)*
+- `light.sunroom_north_outlet` — Sunroom North Outlet  *(on)*
+- `light.sunroom_west_outlet` — Sunroom West Outlet  *(on)*
+- `light.west_patio_carriage_lights` — West Patio Carriage Lights  *(off)*
+- `light.west_patio_flood_light` — West Patio Flood Light  *(off)*
+- `light.wled_froom` —   *(unavailable)*
+- `light.wled_hallway` — WLED-HALLWAY  *(unavailable)*
+- `light.wled_kitchen` — WLED-KITCHEN  *(unavailable)*
+- `light.wled_patiobasement` —   *(unavailable)*
+- `light.wled_patiobasement_main` — Main  *(unavailable)*
+- `light.wled_patiobasement_segment_1` — Segment 1  *(unavailable)*
+- `light.wled_patiobasement_segment_2` — Segment 2  *(unavailable)*
+- `light.wled_patiobasement_segment_3` — Segment 3  *(unavailable)*
+- `light.wled_patioeast` —   *(unavailable)*
+- `light.wled_westpatio` —   *(unavailable)*
+- `light.wled_westpatio_main` — Main  *(unavailable)*
+- `light.wled_westpatio_segment_1` — Segment 1  *(unavailable)*
+
+## media_player (18)
+
+- `media_player.basement_home` — Basement Home  *(unavailable)*
+- `media_player.bedroom_home` — Bedroom Home  *(off)*
+- `media_player.covered_patio_stereo` — covered patio stereo  *(off)*
+- `media_player.entryway_photo_frame_qn65ls03bafxza` — entryway photo frame (QN65LS03BAFXZA)  *(off)*
+- `media_player.home_group` — Home group  *(off)*
+- `media_player.kitchen_home` — Kitchen Home  *(off)*
+- `media_player.kitchen_tv` —   *(unavailable)*
+- `media_player.kitchen_tv_2` — kitchen tv  *(off)*
+- `media_player.lg_webos_tv_oled77c2pua` —   *(unavailable)*
+- `media_player.lg_webos_tv_oled77c2pua_2` — [LG] webOS TV OLED77C2PUA  *(off)*
+- `media_player.living_room_home` — Living Room Home  *(off)*
+- `media_player.living_room_soundbar` — Living Room Soundbar  *(off)*
+- `media_player.master_bedroom_chromecas` —   *(unavailable)*
+- `media_player.master_bedroom_display` — Master Bedroom Display  *(off)*
+- `media_player.mediaroomchromecast` — MediaRoomChromecast  *(off)*
+- `media_player.office_home` — Office Home  *(off)*
+- `media_player.sunroom_display` — Sunroom Display  *(off)*
+- `media_player.tv_samsung_6_series_40` — [TV] Samsung 6 Series (40)  *(idle)*
+
+## notify (3)
+
+- `notify.doug_iphone` — Doug iPhone  *(unknown)*
+- `notify.doug_iphone_13` — Doug iPhone 13  *(unknown)*
+- `notify.douglass_ipad` — Douglas’s iPad  *(unknown)*
+
+## number (99)
+
+- `number.amcrest_ip8m_t2669e_ai_microphone_level` — Amcrest IP8M-T2669E-AI Microphone level  *(80)*
+- `number.amcrest_ip8m_t2669e_ai_wide_dynamic_range` — Amcrest IP8M-T2669E-AI Wide dynamic range  *(1)*
+- `number.amcrest_ip8m_t2669e_ai_wide_dynamic_range_2` — Amcrest IP8M-T2669E-AI Wide dynamic range  *(unavailable)*
+- `number.amcrest_ip8m_vd2793e_microphone_level` — Amcrest IP8M-VD2793E Microphone level  *(80)*
+- `number.amcrest_ip8m_vd2793e_wide_dynamic_range` — Amcrest IP8M-VD2793E Wide dynamic range  *(1)*
+- `number.basement_cam_microphone_level` — Basement Cam Microphone level  *(80)*
+- `number.basement_cam_wide_dynamic_range` — Basement Cam Wide dynamic range  *(1)*
+- `number.basement_patio_basement_patio_carriage_lights_power_on_level` — Basement Patio carriage Lights Power-on level  *(255)*
+- `number.basement_patio_patio_basement_lights_power_on_level` — Patio Basement Lights Power-on level  *(255)*
+- `number.breezeway_cam_wide_dynamic_range` — Breezeway Cam Wide dynamic range  *(unavailable)*
+- `number.breezeway_entryway_light_power_on_level` — Entryway Light Power-on level  *(255)*
+- `number.breezeway_side_doorlight_power_on_level` — Side DoorLight Power-on level  *(255)*
+- `number.dig_uno_v3_intensity` — Intensity  *(unavailable)*
+- `number.dig_uno_v3_speed` — Speed  *(unavailable)*
+- `number.family_room_cam_microphone_level` — Family Room Cam Microphone level  *(80)*
+- `number.family_room_cam_wide_dynamic_range` — Family Room Cam Wide dynamic range  *(1)*
+- `number.front_door_wide_dynamic_range` — Front Door Wide dynamic range  *(1)*
+- `number.garage_garage_carriage_lights_power_on_level` — Garage carriage lights Power-on level  *(255)*
+- `number.garage_garage_porch_lights_power_on_level` — Garage Porch Lights Power-on level  *(255)*
+- `number.garage_garage_west_spotlights_power_on_level` — Garage West Spotlights Power-on level  *(255)*
+- `number.garage_inside_cam_wide_dynamic_range` — Garage Inside Cam Wide dynamic range  *(unavailable)*
+- `number.garage_ne_cam_wide_dynamic_range` — Garage NE Cam Wide dynamic range  *(unavailable)*
+- `number.garage_northwest_wide_dynamic_range` — Garage - NorthWest Wide dynamic range  *(1)*
+- `number.kitchen_cam_1_microphone_level` — Kitchen Cam 1 Microphone level  *(80)*
+- `number.kitchen_cam_1_wide_dynamic_range` — Kitchen Cam 1 Wide dynamic range  *(1)*
+- `number.kitchen_cam_2_wide_dynamic_range` — Kitchen Cam 2 Wide dynamic range  *(1)*
+- `number.levds_dimmer_1e2e_on_level` — Master Spotlight On level  *(255)*
+- `number.levds_dimmer_1e2e_on_off_transition_time` — Master Spotlight On/Off transition time  *(2.0)*
+- `number.levds_dimmer_492f_on_level` — Entryway Light On level  *(255)*
+- `number.levds_dimmer_492f_on_off_transition_time` — Entryway Light On/Off transition time  *(2.0)*
+- `number.levds_dimmer_4944_on_level` — Garage carriage lights On level  *(255)*
+- `number.levds_dimmer_4944_on_off_transition_time` — Garage carriage lights On/Off transition time  *(2.0)*
+- `number.levds_dimmer_8e3c_on_level` — Garage West Spotlights On level  *(255)*
+- `number.levds_dimmer_8e3c_on_off_transition_time` — Garage West Spotlights On/Off transition time  *(2.0)*
+- `number.levds_dimmer_c495_on_level` — Patio Basement Lights On level  *(255)*
+- `number.levds_dimmer_c495_on_off_transition_time` — Patio Basement Lights On/Off transition time  *(2.0)*
+- `number.levds_dimmer_c49a_on_level` — Side DoorLight On level  *(255)*
+- `number.levds_dimmer_c49a_on_off_transition_time` — Side DoorLight On/Off transition time  *(2.0)*
+- `number.levds_dimmer_c526_on_level` — Basement Patio carriage Lights On level  *(255)*
+- `number.levds_dimmer_c526_on_off_transition_time` — Basement Patio carriage Lights On/Off transition time  *(2.0)*
+- `number.levds_dimmer_cf33_on_level` — West Patio SpotLights On level  *(unavailable)*
+- `number.levds_dimmer_cf33_on_off_transition_time` — West Patio SpotLights On/Off transition time  *(unavailable)*
+- `number.levds_dimmer_f1fd_on_level` — Master Carriage Lights On level  *(255)*
+- `number.levds_dimmer_f1fd_on_off_transition_time` — Master Carriage Lights On/Off transition time  *(2.0)*
+- `number.levds_dimmer_f202_on_level` — West Patio Carriage Lights On level  *(255)*
+- `number.levds_dimmer_f202_on_off_transition_time` — West Patio Carriage Lights On/Off transition time  *(2.0)*
+- `number.levds_dimmer_f20a_on_level` — South Patio Carriage Lights On level  *(255)*
+- `number.levds_dimmer_f20a_on_off_transition_time` — South Patio Carriage Lights On/Off transition time  *(5.0)*
+- `number.levds_dimmer_f41d_on_level` — Front Door Porch Light On level  *(255)*
+- `number.levds_dimmer_f41d_on_off_transition_time` — Front Door Porch Light On/Off transition time  *(2.0)*
+- `number.levds_dimmer_f797_on_level` — Garage Porch Lights On level  *(255)*
+- `number.levds_dimmer_f797_on_off_transition_time` — Garage Porch Lights On/Off transition time  *(2.0)*
+- `number.living_room_cam_microphone_level` — Living Room Cam Microphone level  *(80)*
+- `number.living_room_cam_wide_dynamic_range` — Living Room Cam Wide dynamic range  *(1)*
+- `number.main_entryway_front_door_porch_light_power_on_level` — Front Door Porch Light Power-on level  *(255)*
+- `number.master_bedroom_master_carriage_lights_power_on_level` — Master Carriage Lights Power-on level  *(255)*
+- `number.master_bedroom_master_spotlight_power_on_level` — Master Spotlight Power-on level  *(255)*
+- `number.master_cam_wide_dynamic_range` — Master Cam Wide dynamic range  *(unavailable)*
+- `number.mindy_office_wide_dynamic_range` — Mindy Office Wide dynamic range  *(unavailable)*
+- `number.north_yard_garage_northwest_microphone_level` — Garage - NorthWest Microphone level  *(80)*
+- `number.reolink_rlc_823s2_wide_dynamic_range` — REOLINK RLC-823S2 Wide dynamic range  *(unavailable)*
+- `number.side_door_camera_microphone_level` — Side Door Camera Microphone level  *(80)*
+- `number.side_door_camera_wide_dynamic_range` — Side Door Camera Wide dynamic range  *(1)*
+- `number.south_patio_cam_microphone_level` — South Patio Cam Microphone level  *(80)*
+- `number.south_patio_cam_wide_dynamic_range` — South Patio Cam Wide dynamic range  *(1)*
+- `number.south_patio_south_patio_carriage_lights_power_on_level` — South Patio Carriage Lights Power-on level  *(255)*
+- `number.south_side_ai_animal_sensitivity` — South Side AI animal sensitivity  *(60)*
+- `number.south_side_ai_person_sensitivity` — South Side AI person sensitivity  *(60)*
+- `number.south_side_ai_vehicle_sensitivity` — South Side AI vehicle sensitivity  *(60)*
+- `number.south_side_floodlight_turn_on_brightness` — South Side Floodlight turn on brightness  *(85)*
+- `number.south_side_microphone_level` — South Side Microphone level  *(80)*
+- `number.south_side_motion_sensitivity` — South Side Motion sensitivity  *(41)*
+- `number.south_side_volume` — South Side Volume  *(92)*
+- `number.south_side_wide_dynamic_range` — South Side Wide dynamic range  *(1)*
+- `number.sunroom_cam_microphone_level` — Sunroom Cam Microphone level  *(80)*
+- `number.sunroom_cam_wide_dynamic_range` — Sunroom Cam Wide dynamic range  *(1)*
+- `number.west_patio_west_patio_carriage_lights_power_on_level` — West Patio Carriage Lights Power-on level  *(255)*
+- `number.west_patio_west_patio_spotlights_power_on_level` — West Patio SpotLights Power-on level  *(unavailable)*
+- `number.west_patio_wide_dynamic_range` — West Patio Wide dynamic range  *(1)*
+- `number.wled_froom_intensity` — Intensity  *(unavailable)*
+- `number.wled_froom_speed` — Speed  *(unavailable)*
+- `number.wled_hallway_intensity` — WLED-HALLWAY Intensity  *(unavailable)*
+- `number.wled_hallway_speed` — WLED-HALLWAY Speed  *(unavailable)*
+- `number.wled_kitchen_intensity` — WLED-KITCHEN Intensity  *(unavailable)*
+- `number.wled_kitchen_speed` — WLED-KITCHEN Speed  *(unavailable)*
+- `number.wled_patiobasement_intensity` — Intensity  *(unavailable)*
+- `number.wled_patiobasement_segment_1_intensity` — Segment 1 intensity  *(unavailable)*
+- `number.wled_patiobasement_segment_1_speed` — Segment 1 speed  *(unavailable)*
+- `number.wled_patiobasement_segment_2_intensity` — Segment 2 intensity  *(unavailable)*
+- `number.wled_patiobasement_segment_2_speed` — Segment 2 speed  *(unavailable)*
+- `number.wled_patiobasement_segment_3_intensity` — Segment 3 intensity  *(unavailable)*
+- `number.wled_patiobasement_segment_3_speed` — Segment 3 speed  *(unavailable)*
+- `number.wled_patiobasement_speed` — Speed  *(unavailable)*
+- `number.wled_patioeast_intensity` — Intensity  *(unavailable)*
+- `number.wled_patioeast_speed` — Speed  *(unavailable)*
+- `number.wled_westpatio_intensity` — Intensity  *(unavailable)*
+- `number.wled_westpatio_segment_1_intensity` — Segment 1 intensity  *(unavailable)*
+- `number.wled_westpatio_segment_1_speed` — Segment 1 speed  *(unavailable)*
+- `number.wled_westpatio_speed` — Speed  *(unavailable)*
+
+## person (1)
+
+- `person.345_n_main_st` — 345 N Main St  *(not_home)*
+
+## remote (1)
+
+- `remote.entryway_photo_frame_qn65ls03bafxza` — entryway photo frame (QN65LS03BAFXZA)  *(off)*
+
+## select (86)
+
+- `select.amcrest_ip8m_t2669e_ai_recording_mode` — Amcrest IP8M-T2669E-AI Recording mode  *(always)*
+- `select.amcrest_ip8m_t2669e_ai_recording_mode_2` — Amcrest IP8M-T2669E-AI Recording mode  *(unavailable)*
+- `select.amcrest_ip8m_vd2793e_ptz_patrol` — Amcrest IP8M-VD2793E PTZ patrol  *(stop)*
+- `select.amcrest_ip8m_vd2793e_recording_mode` — Amcrest IP8M-VD2793E Recording mode  *(always)*
+- `select.basement_basement_cam_ptz_patrol` — Basement Cam PTZ patrol  *(stop)*
+- `select.basement_cam_recording_mode` — Basement Cam Recording mode  *(always)*
+- `select.breezeway_breezeway_cam_ptz_patrol` — Breezeway Cam PTZ patrol  *(unavailable)*
+- `select.breezeway_cam_recording_mode` — Breezeway Cam Recording mode  *(unavailable)*
+- `select.dig_uno_v3_color_palette` — Color palette  *(unavailable)*
+- `select.dig_uno_v3_live_override` — Live override  *(unavailable)*
+- `select.dig_uno_v3_playlist` — Playlist  *(unavailable)*
+- `select.dig_uno_v3_preset` — Preset  *(unavailable)*
+- `select.family_room_cam_recording_mode` — Family Room Cam Recording mode  *(always)*
+- `select.family_room_current_mode` — Family Room Current Mode  *(unknown)*
+- `select.family_room_temperature_display_units` — Family Room Temperature Display Units  *(fahrenheit)*
+- `select.front_door_recording_mode` — Front Door Recording mode  *(always)*
+- `select.garage_inside_cam_recording_mode` — Garage Inside Cam Recording mode  *(unavailable)*
+- `select.garage_ne_cam_recording_mode` — Garage NE Cam Recording mode  *(unavailable)*
+- `select.garage_northwest_recording_mode` — Garage - NorthWest Recording mode  *(always)*
+- `select.hub_mode` — Hubitat Elevation Hub Mode  *(Day)*
+- `select.hugh_bedroom_current_mode` — Hugh Bedroom Current Mode  *(home)*
+- `select.hugh_bedroom_temperature_display_units` — Hugh Bedroom Temperature Display Units  *(fahrenheit)*
+- `select.kitchen_cam_1_recording_mode` — Kitchen Cam 1 Recording mode  *(always)*
+- `select.kitchen_cam_2_recording_mode` — Kitchen Cam 2 Recording mode  *(always)*
+- `select.kitchen_kitchen_cam_1_ptz_patrol` — Kitchen Cam 1 PTZ patrol  *(stop)*
+- `select.levds_dimmer_1e2e_power_on_behavior_on_startup` — Master Spotlight Power-on behavior  *(previous)*
+- `select.levds_dimmer_492f_power_on_behavior_on_startup` — Entryway Light Power-on behavior  *(previous)*
+- `select.levds_dimmer_4944_power_on_behavior_on_startup` — Garage carriage lights Power-on behavior  *(previous)*
+- `select.levds_dimmer_8e3c_power_on_behavior_on_startup` — Garage West Spotlights Power-on behavior  *(previous)*
+- `select.levds_dimmer_c495_power_on_behavior_on_startup` — Patio Basement Lights Power-on behavior  *(previous)*
+- `select.levds_dimmer_c49a_power_on_behavior_on_startup` — Side DoorLight Power-on behavior  *(previous)*
+- `select.levds_dimmer_c526_power_on_behavior_on_startup` — Basement Patio carriage Lights Power-on behavior  *(previous)*
+- `select.levds_dimmer_cf33_power_on_behavior_on_startup` — West Patio SpotLights Power-on behavior  *(unavailable)*
+- `select.levds_dimmer_f1fd_power_on_behavior_on_startup` — Master Carriage Lights Power-on behavior  *(previous)*
+- `select.levds_dimmer_f202_power_on_behavior_on_startup` — West Patio Carriage Lights Power-on behavior  *(previous)*
+- `select.levds_dimmer_f20a_power_on_behavior_on_startup` — South Patio Carriage Lights Power-on behavior  *(previous)*
+- `select.levds_dimmer_f41d_power_on_behavior_on_startup` — Front Door Porch Light Power-on behavior  *(previous)*
+- `select.levds_dimmer_f797_power_on_behavior_on_startup` — Garage Porch Lights Power-on behavior  *(previous)*
+- `select.living_room_cam_recording_mode` — Living Room Cam Recording mode  *(always)*
+- `select.living_room_living_room_cam_ptz_patrol` — Living Room Cam PTZ patrol  *(stop)*
+- `select.master_bedroom_current_mode` — Master Bedroom Current Mode  *(unknown)*
+- `select.master_bedroom_master_cam_ptz_patrol` — Master Cam PTZ patrol  *(unavailable)*
+- `select.master_bedroom_temperature_display_units` — Master Bedroom Temperature Display Units  *(fahrenheit)*
+- `select.master_cam_recording_mode` — Master Cam Recording mode  *(unavailable)*
+- `select.mindy_office_mindy_office_ptz_patrol` — Mindy Office PTZ patrol  *(unavailable)*
+- `select.mindy_office_recording_mode` — Mindy Office Recording mode  *(unavailable)*
+- `select.new_garage_garage_inside_cam_ptz_patrol` — Garage Inside Cam PTZ patrol  *(unavailable)*
+- `select.reolink_rlc_823s2_ptz_patrol` — REOLINK RLC-823S2 PTZ patrol  *(unavailable)*
+- `select.reolink_rlc_823s2_recording_mode` — REOLINK RLC-823S2 Recording mode  *(unavailable)*
+- `select.side_door_camera_recording_mode` — Side Door Camera Recording mode  *(always)*
+- `select.south_patio_cam_recording_mode` — South Patio Cam Recording mode  *(always)*
+- `select.south_patio_south_patio_cam_ptz_patrol` — South Patio Cam PTZ patrol  *(stop)*
+- `select.south_side_day_night_mode` — South Side Day night mode  *(auto)*
+- `select.south_side_floodlight_mode` — South Side Floodlight mode  *(auto)*
+- `select.south_side_recording_mode` — South Side Recording mode  *(always)*
+- `select.sunroom_cam_recording_mode` — Sunroom Cam Recording mode  *(always)*
+- `select.sunroom_sunroom_cam_ptz_patrol` — Sunroom Cam PTZ patrol  *(stop)*
+- `select.west_patio_recording_mode` — West Patio Recording mode  *(always)*
+- `select.wled_froom_color_palette` — Color palette  *(unavailable)*
+- `select.wled_froom_live_override` — Live override  *(unavailable)*
+- `select.wled_froom_playlist` — Playlist  *(unavailable)*
+- `select.wled_froom_preset` — Preset  *(unavailable)*
+- `select.wled_hallway_color_palette` — WLED-HALLWAY Color palette  *(unavailable)*
+- `select.wled_hallway_live_override` — WLED-HALLWAY Live override  *(unavailable)*
+- `select.wled_hallway_playlist` — WLED-HALLWAY Playlist  *(unavailable)*
+- `select.wled_hallway_preset` — WLED-HALLWAY Preset  *(unavailable)*
+- `select.wled_kitchen_color_palette` — WLED-KITCHEN Color palette  *(unavailable)*
+- `select.wled_kitchen_live_override` — WLED-KITCHEN Live override  *(unavailable)*
+- `select.wled_kitchen_playlist` — WLED-KITCHEN Playlist  *(unavailable)*
+- `select.wled_kitchen_preset` — WLED-KITCHEN Preset  *(unavailable)*
+- `select.wled_patiobasement_color_palette` — Color palette  *(unavailable)*
+- `select.wled_patiobasement_live_override` — Live override  *(unavailable)*
+- `select.wled_patiobasement_playlist` — Playlist  *(unavailable)*
+- `select.wled_patiobasement_preset` — Preset  *(unavailable)*
+- `select.wled_patiobasement_segment_1_color_palette` — Segment 1 color palette  *(unavailable)*
+- `select.wled_patiobasement_segment_2_color_palette` — Segment 2 color palette  *(unavailable)*
+- `select.wled_patiobasement_segment_3_color_palette` — Segment 3 color palette  *(unavailable)*
+- `select.wled_patioeast_color_palette` — Color palette  *(unavailable)*
+- `select.wled_patioeast_live_override` — Live override  *(unavailable)*
+- `select.wled_patioeast_playlist` — Playlist  *(unavailable)*
+- `select.wled_patioeast_preset` — Preset  *(unavailable)*
+- `select.wled_westpatio_color_palette` — Color palette  *(unavailable)*
+- `select.wled_westpatio_live_override` — Live override  *(unavailable)*
+- `select.wled_westpatio_playlist` — Playlist  *(unavailable)*
+- `select.wled_westpatio_preset` — Preset  *(unavailable)*
+- `select.wled_westpatio_segment_1_color_palette` — Segment 1 color palette  *(unavailable)*
+
+## sensor (248)
+
+- `sensor.240_weld_outlet_energy_this_month` — 240 Weld Outlet Energy This Month  *(0.0)*
+- `sensor.240_weld_outlet_energy_today` — 240 Weld Outlet Energy Today  *(0.0)*
+- `sensor.240_weld_outlet_power_minute_average` — 240 Weld Outlet Power Minute Average  *(0.0)*
+- `sensor.345_n_main_udm_pro_recording_capacity` — 345 N Main UDM Pro Recording capacity  *(123107)*
+- `sensor.345_n_main_udm_pro_resolution_4k_video` — 345 N Main UDM Pro Resolution: 4K video  *(unknown)*
+- `sensor.345_n_main_udm_pro_resolution_free_space` — 345 N Main UDM Pro Resolution: free space  *(unknown)*
+- `sensor.345_n_main_udm_pro_resolution_hd_video` — 345 N Main UDM Pro Resolution: HD video  *(unknown)*
+- `sensor.345_n_main_udm_pro_storage_utilization` — 345 N Main UDM Pro Storage utilization  *(96.23)*
+- `sensor.345_n_main_udm_pro_type_continuous_video` — 345 N Main UDM Pro Type: continuous video  *(97.07)*
+- `sensor.345_n_main_udm_pro_type_detections_video` — 345 N Main UDM Pro Type: detections video  *(0)*
+- `sensor.345_n_main_udm_pro_type_timelapse_video` — 345 N Main UDM Pro Type: timelapse video  *(2.93)*
+- `sensor.345_n_main_udm_pro_uptime` — 345 N Main UDM Pro Uptime  *(2026-06-21T04:39:00+00:00)*
+- `sensor.800_series_long_range_usb_controller_status` — 800 Series Long Range USB Controller Status  *(ready)*
+- `sensor.amcrest_ip8m_t2669e_ai_disk_write_rate` — Amcrest IP8M-T2669E-AI Disk write rate  *(0.53774106)*
+- `sensor.amcrest_ip8m_t2669e_ai_disk_write_rate_2` — Amcrest IP8M-T2669E-AI Disk write rate  *(unavailable)*
+- `sensor.amcrest_ip8m_t2669e_ai_storage_used` — Amcrest IP8M-T2669E-AI Storage used  *(62277.025792)*
+- `sensor.amcrest_ip8m_t2669e_ai_storage_used_2` — Amcrest IP8M-T2669E-AI Storage used  *(unavailable)*
+- `sensor.amcrest_ip8m_vd2793e_disk_write_rate` — Amcrest IP8M-VD2793E Disk write rate  *(0.59359489)*
+- `sensor.amcrest_ip8m_vd2793e_storage_used` — Amcrest IP8M-VD2793E Storage used  *(66571.993088)*
+- `sensor.backup_backup_manager_state` — Backup Backup Manager state  *(idle)*
+- `sensor.backup_last_attempted_automatic_backup` — Backup Last attempted automatic backup  *(2026-06-28T09:35:25+00:00)*
+- `sensor.backup_last_successful_automatic_backup` — Backup Last successful automatic backup  *(2026-06-28T09:36:08+00:00)*
+- `sensor.backup_next_scheduled_automatic_backup` — Backup Next scheduled automatic backup  *(2026-06-29T08:56:46+00:00)*
+- `sensor.basement_battery` — Basement Battery  *(unavailable)*
+- `sensor.basement_cam_disk_write_rate` — Basement Cam Disk write rate  *(0.30909984)*
+- `sensor.basement_cam_storage_used` — Basement Cam Storage used  *(36507.222016)*
+- `sensor.basement_temperature` — Basement Temperature  *(unavailable)*
+- `sensor.bowernas01_cpu_load_average_15_min` — BowerNAS01 CPU load average (15 min)  *(0.07)*
+- `sensor.bowernas01_cpu_load_average_5_min` — BowerNAS01 CPU load average (5 min)  *(0.15)*
+- `sensor.bowernas01_cpu_utilization_total` — BowerNAS01 CPU utilization (total)  *(2)*
+- `sensor.bowernas01_cpu_utilization_user` — BowerNAS01 CPU utilization (user)  *(0)*
+- `sensor.bowernas01_download_throughput` — BowerNAS01 Download throughput  *(9.396)*
+- `sensor.bowernas01_drive_1_status` — BowerNAS01 (Drive 1) Status  *(normal)*
+- `sensor.bowernas01_drive_1_temperature` — BowerNAS01 (Drive 1) Temperature  *(84.2)*
+- `sensor.bowernas01_drive_2_status` — BowerNAS01 (Drive 2) Status  *(normal)*
+- `sensor.bowernas01_drive_2_temperature` — BowerNAS01 (Drive 2) Temperature  *(87.8)*
+- `sensor.bowernas01_memory_available_real` — BowerNAS01 Memory available (real)  *(101.564416)*
+- `sensor.bowernas01_memory_available_swap` — BowerNAS01 Memory available (swap)  *(1847.037952)*
+- `sensor.bowernas01_memory_total_real` — BowerNAS01 Memory total (real)  *(508.27264)*
+- `sensor.bowernas01_memory_total_swap` — BowerNAS01 Memory total (swap)  *(2147.414016)*
+- `sensor.bowernas01_memory_usage_real` — BowerNAS01 Memory usage (real)  *(47)*
+- `sensor.bowernas01_temperature` — BowerNAS01 Temperature  *(104.0)*
+- `sensor.bowernas01_upload_throughput` — BowerNAS01 Upload throughput  *(0.519)*
+- `sensor.bowernas01_volume_1_average_disk_temp` — BowerNAS01 (Volume 1) Average disk temp  *(86.0)*
+- `sensor.bowernas01_volume_1_status` — BowerNAS01 (Volume 1) Status  *(normal)*
+- `sensor.bowernas01_volume_1_used_space` — BowerNAS01 (Volume 1) Used space  *(2.991366950912)*
+- `sensor.bowernas01_volume_1_volume_used` — BowerNAS01 (Volume 1) Volume used  *(76.2)*
+- `sensor.breezeway_cam_disk_write_rate` — Breezeway Cam Disk write rate  *(unavailable)*
+- `sensor.breezeway_cam_storage_used` — Breezeway Cam Storage used  *(unavailable)*
+- `sensor.breezeway_floor_heat_energy_this_month` — Breezeway Floor Heat Energy This Month  *(0.0)*
+- `sensor.breezeway_floor_heat_energy_today` — Breezeway Floor Heat Energy Today  *(0.0)*
+- `sensor.breezeway_floor_heat_power_minute_average` — Breezeway Floor Heat Power Minute Average  *(0.0)*
+- `sensor.breezeway_lights_energy_this_month` — Breezeway Lights Energy This Month  *(0.0230757246980402)*
+- `sensor.breezeway_lights_energy_today` — Breezeway Lights Energy Today  *(0.0)*
+- `sensor.breezeway_lights_power_minute_average` — Breezeway Lights Power Minute Average  *(0.0)*
+- `sensor.breezeway_outlets_energy_this_month` — Breezeway Outlets Energy This Month  *(0.102143470666673)*
+- `sensor.breezeway_outlets_energy_today` — Breezeway Outlets Energy Today  *(0.0)*
+- `sensor.breezeway_outlets_power_minute_average` — Breezeway Outlets Power Minute Average  *(0.0)*
+- `sensor.car_charger_outlet_energy_this_month` — Car Charger Outlet Energy This Month  *(0.169499249522951)*
+- `sensor.car_charger_outlet_energy_today` — Car Charger Outlet Energy Today  *(0.0)*
+- `sensor.car_charger_outlet_power_minute_average` — Car Charger Outlet Power Minute Average  *(0.0)*
+- `sensor.dig_uno_v3_estimated_current` — Estimated current  *(unavailable)*
+- `sensor.dig_uno_v3_ip` — IP  *(unavailable)*
+- `sensor.dig_uno_v3_led_count` — LED count  *(unavailable)*
+- `sensor.dig_uno_v3_max_current` — Max current  *(unavailable)*
+- `sensor.doug_iphone_13_app_version` — Doug iPhone 13 App Version  *(2026.6.0)*
+- `sensor.doug_iphone_13_audio_output` — Doug iPhone 13 Audio Output  *(unavailable)*
+- `sensor.doug_iphone_13_battery_level` — Doug iPhone 13 Battery Level  *(30)*
+- `sensor.doug_iphone_13_battery_state` — Doug iPhone 13 Battery State  *(Not Charging)*
+- `sensor.doug_iphone_13_bssid` — Doug iPhone 13 BSSID  *(Not Connected)*
+- `sensor.doug_iphone_13_connection_type` — Doug iPhone 13 Connection Type  *(unavailable)*
+- `sensor.doug_iphone_13_geocoded_location` — Doug iPhone 13 Geocoded Location  *(345 N Main St
+Chagrin Falls OH 44022
+United States)*
+- `sensor.doug_iphone_13_last_update_trigger` — Doug iPhone 13 Last Update Trigger  *(unavailable)*
+- `sensor.doug_iphone_13_location_permission` — Doug iPhone 13 Location permission  *(Authorized when in use)*
+- `sensor.doug_iphone_13_sim_1` — Doug iPhone 13 SIM 1  *(unavailable)*
+- `sensor.doug_iphone_13_sim_2` — Doug iPhone 13 SIM 2  *(unavailable)*
+- `sensor.doug_iphone_13_ssid` — Doug iPhone 13 SSID  *(Not Connected)*
+- `sensor.doug_iphone_13_storage` — Doug iPhone 13 Storage  *(unavailable)*
+- `sensor.doug_iphone_app_version` — Doug iPhone App Version  *(2025.7.1)*
+- `sensor.doug_iphone_audio_output` — Doug iPhone Audio Output  *(unavailable)*
+- `sensor.doug_iphone_battery_level` — Doug iPhone Battery Level  *(100)*
+- `sensor.doug_iphone_battery_state` — Doug iPhone Battery State  *(Not Charging)*
+- `sensor.doug_iphone_bssid` — Doug iPhone BSSID  *(fc:ec:da:a5:b8:ad)*
+- `sensor.doug_iphone_connection_type` — Doug iPhone Connection Type  *(unavailable)*
+- `sensor.doug_iphone_geocoded_location` — Doug iPhone Geocoded Location  *(345 N Main St
+Chagrin Falls OH 44022
+United States)*
+- `sensor.doug_iphone_last_update_trigger` — Doug iPhone Last Update Trigger  *(unavailable)*
+- `sensor.doug_iphone_location_permission` — Doug iPhone Location permission  *(Authorized when in use)*
+- `sensor.doug_iphone_sim_1` — Doug iPhone SIM 1  *(unavailable)*
+- `sensor.doug_iphone_sim_2` — Doug iPhone SIM 2  *(unavailable)*
+- `sensor.doug_iphone_ssid` — Doug iPhone SSID  *(DougMindySecure)*
+- `sensor.doug_iphone_storage` — Doug iPhone Storage  *(unavailable)*
+- `sensor.douglass_ipad_app_version` — Douglas’s iPad App Version  *(2025.7.2)*
+- `sensor.douglass_ipad_audio_output` — Douglas’s iPad Audio Output  *(unavailable)*
+- `sensor.douglass_ipad_battery_level` — Douglas’s iPad Battery Level  *(85)*
+- `sensor.douglass_ipad_battery_state` — Douglas’s iPad Battery State  *(Not Charging)*
+- `sensor.douglass_ipad_bssid` — Douglas’s iPad BSSID  *(86:2a:a8:12:ea:6d)*
+- `sensor.douglass_ipad_connection_type` — Douglas’s iPad Connection Type  *(unavailable)*
+- `sensor.douglass_ipad_geocoded_location` — Douglas’s iPad Geocoded Location  *(345 N Main St
+Chagrin Falls OH 44022
+United States)*
+- `sensor.douglass_ipad_last_update_trigger` — Douglas’s iPad Last Update Trigger  *(unavailable)*
+- `sensor.douglass_ipad_location_permission` — Douglas’s iPad Location permission  *(Authorized when in use)*
+- `sensor.douglass_ipad_ssid` — Douglas’s iPad SSID  *(BowerPublic)*
+- `sensor.douglass_ipad_storage` — Douglas’s iPad Storage  *(unavailable)*
+- `sensor.family_room_cam_disk_write_rate` — Family Room Cam Disk write rate  *(0.56415079)*
+- `sensor.family_room_cam_storage_used` — Family Room Cam Storage used  *(64424.50944)*
+- `sensor.family_room_current_humidity` — Family Room Current Humidity  *(45.0)*
+- `sensor.family_room_current_temperature` — Family Room Current Temperature  *(71.96)*
+- `sensor.front_door_disk_write_rate` — Front Door Disk write rate  *(0.5595424)*
+- `sensor.front_door_storage_used` — Front Door Storage used  *(67645.734912)*
+- `sensor.garage_gfi_1_energy_this_month` — Garage GFI #1 Energy This Month  *(0.0)*
+- `sensor.garage_gfi_1_energy_today` — Garage GFI #1 Energy Today  *(0.0)*
+- `sensor.garage_gfi_1_power_minute_average` — Garage GFI #1 Power Minute Average  *(0.0)*
+- `sensor.garage_gfi_2_energy_this_month` — Garage GFI #2 Energy This Month  *(0.0105067318979899)*
+- `sensor.garage_gfi_2_energy_today` — Garage GFI #2 Energy Today  *(0.0)*
+- `sensor.garage_gfi_2_power_minute_average` — Garage GFI #2 Power Minute Average  *(0.0)*
+- `sensor.garage_gfi_3_energy_this_month` — Garage GFI #3 Energy This Month  *(2.5900003229679)*
+- `sensor.garage_gfi_3_energy_today` — Garage GFI #3 Energy Today  *(0.00752610776265462)*
+- `sensor.garage_gfi_3_power_minute_average` — Garage GFI #3 Power Minute Average  *(22.6310769399007)*
+- `sensor.garage_gfi_4_energy_this_month` — Garage GFI #4 Energy This Month  *(14.336956930782)*
+- `sensor.garage_gfi_4_energy_today` — Garage GFI #4 Energy Today  *(0.00691214760674371)*
+- `sensor.garage_gfi_4_power_minute_average` — Garage GFI #4 Power Minute Average  *(20.7282644271851)*
+- `sensor.garage_inside_cam_disk_write_rate` — Garage Inside Cam Disk write rate  *(unavailable)*
+- `sensor.garage_inside_cam_storage_used` — Garage Inside Cam Storage used  *(unavailable)*
+- `sensor.garage_lights_energy_this_month` — Garage Lights Energy This Month  *(4.33283585776793)*
+- `sensor.garage_lights_energy_today` — Garage Lights Energy Today  *(0.00215690589759085)*
+- `sensor.garage_lights_power_minute_average` — Garage Lights Power Minute Average  *(6.50414556662242)*
+- `sensor.garage_ne_cam_disk_write_rate` — Garage NE Cam Disk write rate  *(unavailable)*
+- `sensor.garage_ne_cam_storage_used` — Garage NE Cam Storage used  *(unavailable)*
+- `sensor.garage_northwest_disk_write_rate` — Garage - NorthWest Disk write rate  *(0.3597867)*
+- `sensor.garage_northwest_storage_used` — Garage - NorthWest Storage used  *(42949.67296)*
+- `sensor.garage_openers_energy_this_month` — Garage Openers Energy This Month  *(10.507364621355)*
+- `sensor.garage_openers_energy_today` — Garage Openers Energy Today  *(0.002068898339404)*
+- `sensor.garage_openers_power_minute_average` — Garage Openers Power Minute Average  *(6.19673592249552)*
+- `sensor.heat_pump_energy_this_month` — Heat Pump Energy This Month  *(7.70835215447134)*
+- `sensor.heat_pump_energy_today` — Heat Pump Energy Today  *(0.0)*
+- `sensor.heat_pump_power_minute_average` — Heat Pump Power Minute Average  *(0.0)*
+- `sensor.hub_hsm_status` — Hubitat Elevation Hub Hsm Status  *(unknown)*
+- `sensor.hub_mode` — Hubitat Elevation Hub Mode  *(Day)*
+- `sensor.hugh_bedroom_current_humidity` — Hugh Bedroom Current Humidity  *(44.0)*
+- `sensor.hugh_bedroom_current_temperature` — Hugh Bedroom Current Temperature  *(72.68)*
+- `sensor.kitchen_cam_1_disk_write_rate` — Kitchen Cam 1 Disk write rate  *(0.63563078)*
+- `sensor.kitchen_cam_1_storage_used` — Kitchen Cam 1 Storage used  *(78383.153152)*
+- `sensor.kitchen_cam_2_disk_write_rate` — Kitchen Cam 2 Disk write rate  *(0.27772428)*
+- `sensor.kitchen_cam_2_storage_used` — Kitchen Cam 2 Storage used  *(32212.25472)*
+- `sensor.living_room_cam_disk_write_rate` — Living Room Cam Disk write rate  *(0.3071202)*
+- `sensor.living_room_cam_storage_used` — Living Room Cam Storage used  *(35433.480192)*
+- `sensor.lr_left_light_energy` — LR Left Light Energy  *(unknown)*
+- `sensor.lr_left_light_power` — LR Left Light Power  *(unknown)*
+- `sensor.lr_right_light_energy` — LR Right Light Energy  *(unknown)*
+- `sensor.lr_right_light_power` — LR Right Light Power  *(unknown)*
+- `sensor.master_bedroom_current_humidity` — Master Bedroom Current Humidity  *(49.0)*
+- `sensor.master_bedroom_current_temperature` — Master Bedroom Current Temperature  *(72.86)*
+- `sensor.master_cam_disk_write_rate` — Master Cam Disk write rate  *(unavailable)*
+- `sensor.master_cam_storage_used` — Master Cam Storage used  *(unavailable)*
+- `sensor.mindy_office_disk_write_rate` — Mindy Office Disk write rate  *(unavailable)*
+- `sensor.mindy_office_storage_used` — Mindy Office Storage used  *(unavailable)*
+- `sensor.north_garage_energy_this_month` — North Garage Energy This Month  *(39.7807350641298)*
+- `sensor.north_garage_energy_this_month_2` — North Garage Energy This Month  *(0.0)*
+- `sensor.north_garage_energy_this_month_3` — North Garage Energy This Month  *(0.0)*
+- `sensor.north_garage_energy_this_month_4` — North Garage Energy This Month  *(0.0)*
+- `sensor.north_garage_energy_this_month_5` — North Garage Energy This Month  *(0.0)*
+- `sensor.north_garage_energy_today` — North Garage Energy Today  *(0.0186640596063932)*
+- `sensor.north_garage_energy_today_2` — North Garage Energy Today  *(0.0)*
+- `sensor.north_garage_energy_today_3` — North Garage Energy Today  *(0.0)*
+- `sensor.north_garage_energy_today_4` — North Garage Energy Today  *(0.0)*
+- `sensor.north_garage_energy_today_5` — North Garage Energy Today  *(0.0)*
+- `sensor.north_garage_power_minute_average` — North Garage Power Minute Average  *(56.0602228562037)*
+- `sensor.north_garage_power_minute_average_2` — North Garage Power Minute Average  *(0.0)*
+- `sensor.north_garage_power_minute_average_3` — North Garage Power Minute Average  *(0.0)*
+- `sensor.north_garage_power_minute_average_4` — North Garage Power Minute Average  *(0.0)*
+- `sensor.north_garage_power_minute_average_5` — North Garage Power Minute Average  *(0.0)*
+- `sensor.reolink_rlc_823s2_disk_write_rate` — REOLINK RLC-823S2 Disk write rate  *(unavailable)*
+- `sensor.reolink_rlc_823s2_storage_used` — REOLINK RLC-823S2 Storage used  *(unavailable)*
+- `sensor.shellyfloodg4_d885ace6bf1c_battery` — shellyfloodg4-d885ace6bf1c Battery  *(91)*
+- `sensor.side_door_camera_disk_write_rate` — Side Door Camera Disk write rate  *(0.71088139)*
+- `sensor.side_door_camera_storage_used` — Side Door Camera Storage used  *(81604.378624)*
+- `sensor.sonoff_water_detector_battery` — Laundry Flood Detector - Sonoff Battery  *(100.0)*
+- `sensor.sonoff_waterdetector_bath_battery` — Bath Flood Detector - Sonoff Battery  *(100.0)*
+- `sensor.south_patio_cam_disk_write_rate` — South Patio Cam Disk write rate  *(0.59515305)*
+- `sensor.south_patio_cam_storage_used` — South Patio Cam Storage used  *(68719.476736)*
+- `sensor.south_side_day_night_state` — South Side Day night state  *(night)*
+- `sensor.south_side_disk_write_rate` — South Side Disk write rate  *(0.53000483)*
+- `sensor.south_side_storage_used` — South Side Storage used  *(57982.058496)*
+- `sensor.sun_next_dawn` — Sun Next dawn  *(2026-06-29T09:16:47+00:00)*
+- `sensor.sun_next_dusk` — Sun Next dusk  *(2026-06-30T01:41:17+00:00)*
+- `sensor.sun_next_midnight` — Sun Next midnight  *(2026-06-29T05:29:08+00:00)*
+- `sensor.sun_next_noon` — Sun Next noon  *(2026-06-29T17:29:00+00:00)*
+- `sensor.sun_next_rising` — Sun Next rising  *(2026-06-29T09:52:20+00:00)*
+- `sensor.sun_next_setting` — Sun Next setting  *(2026-06-30T01:05:46+00:00)*
+- `sensor.sunroom_cam_disk_write_rate` — Sunroom Cam Disk write rate  *(0.56343776)*
+- `sensor.sunroom_cam_storage_used` — Sunroom Cam Storage used  *(65498.251264)*
+- `sensor.temp_sensor_humidity` — Temp Sensor Humidity  *(unavailable)*
+- `sensor.temp_sensor_temperature` — Temp Sensor Temperature  *(unavailable)*
+- `sensor.tumble_dryer` — Tumble dryer  *(off)*
+- `sensor.tumble_dryer_drying_step` — Tumble dryer Drying step  *(unknown)*
+- `sensor.tumble_dryer_elapsed_time` — Tumble dryer Elapsed time  *(unknown)*
+- `sensor.tumble_dryer_energy_consumption` — Tumble dryer Energy consumption  *(unknown)*
+- `sensor.tumble_dryer_energy_forecast` — Tumble dryer Energy forecast  *(unknown)*
+- `sensor.tumble_dryer_finish` — Tumble dryer Finish  *(unknown)*
+- `sensor.tumble_dryer_program` — Tumble dryer Program  *(no_program)*
+- `sensor.tumble_dryer_program_phase` — Tumble dryer Program phase  *(not_running)*
+- `sensor.tumble_dryer_program_type` — Tumble dryer Program type  *(normal_operation_mode)*
+- `sensor.tumble_dryer_remaining_time` — Tumble dryer Remaining time  *(unknown)*
+- `sensor.tumble_dryer_start` — Tumble dryer Start  *(unknown)*
+- `sensor.tumble_dryer_start_in` — Tumble dryer Start in  *(unknown)*
+- `sensor.washing_machine` — Washing machine  *(off)*
+- `sensor.washing_machine_elapsed_time` — Washing machine Elapsed time  *(unknown)*
+- `sensor.washing_machine_energy_consumption` — Washing machine Energy consumption  *(unknown)*
+- `sensor.washing_machine_energy_forecast` — Washing machine Energy forecast  *(unknown)*
+- `sensor.washing_machine_finish` — Washing machine Finish  *(unknown)*
+- `sensor.washing_machine_program` — Washing machine Program  *(no_program)*
+- `sensor.washing_machine_program_phase` — Washing machine Program phase  *(not_running)*
+- `sensor.washing_machine_program_type` — Washing machine Program type  *(normal_operation_mode)*
+- `sensor.washing_machine_remaining_time` — Washing machine Remaining time  *(unknown)*
+- `sensor.washing_machine_spin_speed` — Washing machine Spin speed  *(unknown)*
+- `sensor.washing_machine_start` — Washing machine Start  *(unknown)*
+- `sensor.washing_machine_start_in` — Washing machine Start in  *(unknown)*
+- `sensor.washing_machine_target_temperature` — Washing machine Target temperature  *(unknown)*
+- `sensor.washing_machine_twindos_1_level` — Washing machine TwinDos 1 level  *(0)*
+- `sensor.washing_machine_twindos_2_level` — Washing machine TwinDos 2 level  *(15)*
+- `sensor.washing_machine_water_consumption` — Washing machine Water consumption  *(unknown)*
+- `sensor.washing_machine_water_forecast` — Washing machine Water forecast  *(unknown)*
+- `sensor.west_patio_disk_write_rate` — West Patio Disk write rate  *(0.57612442)*
+- `sensor.west_patio_storage_used` — West Patio Storage used  *(65498.251264)*
+- `sensor.wled_controllers` — WLED Controllers  *(2)*
+- `sensor.wled_froom_estimated_current` — Estimated current  *(unavailable)*
+- `sensor.wled_froom_ip` — IP  *(unavailable)*
+- `sensor.wled_froom_led_count` — LED count  *(unavailable)*
+- `sensor.wled_froom_max_current` — Max current  *(unavailable)*
+- `sensor.wled_hallway_estimated_current` — WLED-HALLWAY Estimated current  *(unavailable)*
+- `sensor.wled_hallway_ip` — WLED-HALLWAY IP  *(unavailable)*
+- `sensor.wled_hallway_led_count` — WLED-HALLWAY LED count  *(unavailable)*
+- `sensor.wled_hallway_max_current` — WLED-HALLWAY Max current  *(unavailable)*
+- `sensor.wled_kitchen_estimated_current` — WLED-KITCHEN Estimated current  *(unavailable)*
+- `sensor.wled_kitchen_ip` — WLED-KITCHEN IP  *(unavailable)*
+- `sensor.wled_kitchen_led_count` — WLED-KITCHEN LED count  *(unavailable)*
+- `sensor.wled_kitchen_max_current` — WLED-KITCHEN Max current  *(unavailable)*
+- `sensor.wled_patiobasement_estimated_current` — Estimated current  *(unavailable)*
+- `sensor.wled_patiobasement_ip` — IP  *(unavailable)*
+- `sensor.wled_patiobasement_led_count` — LED count  *(unavailable)*
+- `sensor.wled_patiobasement_max_current` — Max current  *(unavailable)*
+- `sensor.wled_patioeast_estimated_current` — Estimated current  *(unavailable)*
+- `sensor.wled_patioeast_ip` — IP  *(unavailable)*
+- `sensor.wled_patioeast_led_count` — LED count  *(unavailable)*
+- `sensor.wled_patioeast_max_current` — Max current  *(unavailable)*
+- `sensor.wled_westpatio_estimated_current` — Estimated current  *(unavailable)*
+- `sensor.wled_westpatio_ip` — IP  *(unavailable)*
+- `sensor.wled_westpatio_led_count` — LED count  *(unavailable)*
+- `sensor.wled_westpatio_max_current` — Max current  *(unavailable)*
+
+## siren (1)
+
+- `siren.south_side_siren` — South Side Siren  *(unknown)*
+
+## stt (1)
+
+- `stt.home_assistant_cloud` — Home Assistant Cloud  *(unknown)*
+
+## sun (1)
+
+- `sun.sun` — Sun  *(below_horizon)*
+
+## switch (184)
+
+- `switch.345_n_main_udm_pro_analytics_enabled` — 345 N Main UDM Pro Analytics enabled  *(on)*
+- `switch.345_n_main_udm_pro_insights_enabled` — 345 N Main UDM Pro Insights enabled  *(on)*
+- `switch.amcrest_ip8m_t2669e_ai_detections_motion` — Amcrest IP8M-T2669E-AI Motion  *(on)*
+- `switch.amcrest_ip8m_t2669e_ai_detections_motion_2` — Amcrest IP8M-T2669E-AI Motion  *(unavailable)*
+- `switch.amcrest_ip8m_t2669e_ai_overlay_show_date` — Amcrest IP8M-T2669E-AI Overlay: show date  *(off)*
+- `switch.amcrest_ip8m_t2669e_ai_overlay_show_date_2` — Amcrest IP8M-T2669E-AI Overlay: show date  *(unavailable)*
+- `switch.amcrest_ip8m_t2669e_ai_overlay_show_logo` — Amcrest IP8M-T2669E-AI Overlay: show logo  *(on)*
+- `switch.amcrest_ip8m_t2669e_ai_overlay_show_logo_2` — Amcrest IP8M-T2669E-AI Overlay: show logo  *(unavailable)*
+- `switch.amcrest_ip8m_t2669e_ai_overlay_show_name` — Amcrest IP8M-T2669E-AI Overlay: show name  *(off)*
+- `switch.amcrest_ip8m_t2669e_ai_overlay_show_name_2` — Amcrest IP8M-T2669E-AI Overlay: show name  *(unavailable)*
+- `switch.amcrest_ip8m_t2669e_ai_overlay_show_nerd_mode` — Amcrest IP8M-T2669E-AI Overlay: show nerd mode  *(off)*
+- `switch.amcrest_ip8m_t2669e_ai_overlay_show_nerd_mode_2` — Amcrest IP8M-T2669E-AI Overlay: show nerd mode  *(unavailable)*
+- `switch.amcrest_ip8m_t2669e_ai_privacy_mode` — Amcrest IP8M-T2669E-AI Privacy mode  *(off)*
+- `switch.amcrest_ip8m_t2669e_ai_privacy_mode_2` — Amcrest IP8M-T2669E-AI Privacy mode  *(unavailable)*
+- `switch.amcrest_ip8m_vd2793e_detections_motion` — Amcrest IP8M-VD2793E Motion  *(on)*
+- `switch.amcrest_ip8m_vd2793e_overlay_show_date` — Amcrest IP8M-VD2793E Overlay: show date  *(off)*
+- `switch.amcrest_ip8m_vd2793e_overlay_show_logo` — Amcrest IP8M-VD2793E Overlay: show logo  *(on)*
+- `switch.amcrest_ip8m_vd2793e_overlay_show_name` — Amcrest IP8M-VD2793E Overlay: show name  *(off)*
+- `switch.amcrest_ip8m_vd2793e_overlay_show_nerd_mode` — Amcrest IP8M-VD2793E Overlay: show nerd mode  *(off)*
+- `switch.amcrest_ip8m_vd2793e_privacy_mode` — Amcrest IP8M-VD2793E Privacy mode  *(off)*
+- `switch.amcrest_ip8m_vd2793e_tracking_person` — Amcrest IP8M-VD2793E Tracking: person  *(off)*
+- `switch.basement_cam_detections_motion` — Basement Cam Motion  *(on)*
+- `switch.basement_cam_overlay_show_date` — Basement Cam Overlay: show date  *(off)*
+- `switch.basement_cam_overlay_show_logo` — Basement Cam Overlay: show logo  *(on)*
+- `switch.basement_cam_overlay_show_name` — Basement Cam Overlay: show name  *(off)*
+- `switch.basement_cam_overlay_show_nerd_mode` — Basement Cam Overlay: show nerd mode  *(off)*
+- `switch.basement_cam_privacy_mode` — Basement Cam Privacy mode  *(off)*
+- `switch.basement_cam_tracking_person` — Basement Cam Tracking: person  *(off)*
+- `switch.breezeway_cam_detections_motion` — Breezeway Cam Motion  *(unavailable)*
+- `switch.breezeway_cam_overlay_show_date` — Breezeway Cam Overlay: show date  *(unavailable)*
+- `switch.breezeway_cam_overlay_show_logo` — Breezeway Cam Overlay: show logo  *(unavailable)*
+- `switch.breezeway_cam_overlay_show_name` — Breezeway Cam Overlay: show name  *(unavailable)*
+- `switch.breezeway_cam_overlay_show_nerd_mode` — Breezeway Cam Overlay: show nerd mode  *(unavailable)*
+- `switch.breezeway_cam_privacy_mode` — Breezeway Cam Privacy mode  *(unavailable)*
+- `switch.breezeway_cam_tracking_person` — Breezeway Cam Tracking: person  *(unavailable)*
+- `switch.breezeway_wled_hallway_freeze` — WLED-HALLWAY Freeze  *(unavailable)*
+- `switch.dig_uno_v3_nightlight` — Nightlight  *(unavailable)*
+- `switch.dig_uno_v3_reverse` — Reverse  *(unavailable)*
+- `switch.dig_uno_v3_sync_receive` — Sync receive  *(unavailable)*
+- `switch.dig_uno_v3_sync_send` — Sync send  *(unavailable)*
+- `switch.family_room_cam_detections_motion` — Family Room Cam Motion  *(on)*
+- `switch.family_room_cam_overlay_show_date` — Family Room Cam Overlay: show date  *(off)*
+- `switch.family_room_cam_overlay_show_logo` — Family Room Cam Overlay: show logo  *(on)*
+- `switch.family_room_cam_overlay_show_name` — Family Room Cam Overlay: show name  *(off)*
+- `switch.family_room_cam_overlay_show_nerd_mode` — Family Room Cam Overlay: show nerd mode  *(off)*
+- `switch.family_room_cam_privacy_mode` — Family Room Cam Privacy mode  *(off)*
+- `switch.front_door_detections_motion` — Front Door Motion  *(on)*
+- `switch.front_door_overlay_show_date` — Front Door Overlay: show date  *(off)*
+- `switch.front_door_overlay_show_logo` — Front Door Overlay: show logo  *(on)*
+- `switch.front_door_overlay_show_name` — Front Door Overlay: show name  *(off)*
+- `switch.front_door_overlay_show_nerd_mode` — Front Door Overlay: show nerd mode  *(off)*
+- `switch.front_door_privacy_mode` — Front Door Privacy mode  *(off)*
+- `switch.front_tree` — Front Tree  *(on)*
+- `switch.garage_inside_cam_detections_motion` — Garage Inside Cam Motion  *(unavailable)*
+- `switch.garage_inside_cam_overlay_show_date` — Garage Inside Cam Overlay: show date  *(unavailable)*
+- `switch.garage_inside_cam_overlay_show_logo` — Garage Inside Cam Overlay: show logo  *(unavailable)*
+- `switch.garage_inside_cam_overlay_show_name` — Garage Inside Cam Overlay: show name  *(unavailable)*
+- `switch.garage_inside_cam_overlay_show_nerd_mode` — Garage Inside Cam Overlay: show nerd mode  *(unavailable)*
+- `switch.garage_inside_cam_privacy_mode` — Garage Inside Cam Privacy mode  *(unavailable)*
+- `switch.garage_inside_cam_tracking_person` — Garage Inside Cam Tracking: person  *(unavailable)*
+- `switch.garage_ne_cam_detections_motion` — Garage NE Cam Motion  *(unavailable)*
+- `switch.garage_ne_cam_overlay_show_date` — Garage NE Cam Overlay: show date  *(unavailable)*
+- `switch.garage_ne_cam_overlay_show_logo` — Garage NE Cam Overlay: show logo  *(unavailable)*
+- `switch.garage_ne_cam_overlay_show_name` — Garage NE Cam Overlay: show name  *(unavailable)*
+- `switch.garage_ne_cam_overlay_show_nerd_mode` — Garage NE Cam Overlay: show nerd mode  *(unavailable)*
+- `switch.garage_ne_cam_privacy_mode` — Garage NE Cam Privacy mode  *(unavailable)*
+- `switch.garage_northwest_detections_motion` — Garage - NorthWest Motion  *(on)*
+- `switch.garage_northwest_overlay_show_date` — Garage - NorthWest Overlay: show date  *(off)*
+- `switch.garage_northwest_overlay_show_logo` — Garage - NorthWest Overlay: show logo  *(on)*
+- `switch.garage_northwest_overlay_show_name` — Garage - NorthWest Overlay: show name  *(off)*
+- `switch.garage_northwest_overlay_show_nerd_mode` — Garage - NorthWest Overlay: show nerd mode  *(off)*
+- `switch.garage_northwest_privacy_mode` — Garage - NorthWest Privacy mode  *(off)*
+- `switch.kitchen_cam_1_detections_motion` — Kitchen Cam 1 Motion  *(on)*
+- `switch.kitchen_cam_1_overlay_show_date` — Kitchen Cam 1 Overlay: show date  *(off)*
+- `switch.kitchen_cam_1_overlay_show_logo` — Kitchen Cam 1 Overlay: show logo  *(on)*
+- `switch.kitchen_cam_1_overlay_show_name` — Kitchen Cam 1 Overlay: show name  *(off)*
+- `switch.kitchen_cam_1_overlay_show_nerd_mode` — Kitchen Cam 1 Overlay: show nerd mode  *(off)*
+- `switch.kitchen_cam_1_privacy_mode` — Kitchen Cam 1 Privacy mode  *(off)*
+- `switch.kitchen_cam_1_tracking_person` — Kitchen Cam 1 Tracking: person  *(off)*
+- `switch.kitchen_cam_2_detections_motion` — Kitchen Cam 2 Motion  *(on)*
+- `switch.kitchen_cam_2_overlay_show_date` — Kitchen Cam 2 Overlay: show date  *(off)*
+- `switch.kitchen_cam_2_overlay_show_logo` — Kitchen Cam 2 Overlay: show logo  *(on)*
+- `switch.kitchen_cam_2_overlay_show_name` — Kitchen Cam 2 Overlay: show name  *(off)*
+- `switch.kitchen_cam_2_overlay_show_nerd_mode` — Kitchen Cam 2 Overlay: show nerd mode  *(off)*
+- `switch.kitchen_cam_2_privacy_mode` — Kitchen Cam 2 Privacy mode  *(off)*
+- `switch.living_room_cam_detections_motion` — Living Room Cam Motion  *(on)*
+- `switch.living_room_cam_overlay_show_date` — Living Room Cam Overlay: show date  *(off)*
+- `switch.living_room_cam_overlay_show_logo` — Living Room Cam Overlay: show logo  *(on)*
+- `switch.living_room_cam_overlay_show_name` — Living Room Cam Overlay: show name  *(off)*
+- `switch.living_room_cam_overlay_show_nerd_mode` — Living Room Cam Overlay: show nerd mode  *(off)*
+- `switch.living_room_cam_privacy_mode` — Living Room Cam Privacy mode  *(off)*
+- `switch.living_room_cam_tracking_person` — Living Room Cam Tracking: person  *(off)*
+- `switch.master_cam_detections_motion` — Master Cam Motion  *(unavailable)*
+- `switch.master_cam_overlay_show_date` — Master Cam Overlay: show date  *(unavailable)*
+- `switch.master_cam_overlay_show_logo` — Master Cam Overlay: show logo  *(unavailable)*
+- `switch.master_cam_overlay_show_name` — Master Cam Overlay: show name  *(unavailable)*
+- `switch.master_cam_overlay_show_nerd_mode` — Master Cam Overlay: show nerd mode  *(unavailable)*
+- `switch.master_cam_privacy_mode` — Master Cam Privacy mode  *(unavailable)*
+- `switch.master_cam_tracking_person` — Master Cam Tracking: person  *(unavailable)*
+- `switch.mindy_office_detections_motion` — Mindy Office Motion  *(unavailable)*
+- `switch.mindy_office_overlay_show_date` — Mindy Office Overlay: show date  *(unavailable)*
+- `switch.mindy_office_overlay_show_logo` — Mindy Office Overlay: show logo  *(unavailable)*
+- `switch.mindy_office_overlay_show_name` — Mindy Office Overlay: show name  *(unavailable)*
+- `switch.mindy_office_overlay_show_nerd_mode` — Mindy Office Overlay: show nerd mode  *(unavailable)*
+- `switch.mindy_office_privacy_mode` — Mindy Office Privacy mode  *(unavailable)*
+- `switch.mindy_office_tracking_person` — Mindy Office Tracking: person  *(unavailable)*
+- `switch.reolink_rlc_823s2_detections_motion` — REOLINK RLC-823S2 Motion  *(unavailable)*
+- `switch.reolink_rlc_823s2_overlay_show_date` — REOLINK RLC-823S2 Overlay: show date  *(unavailable)*
+- `switch.reolink_rlc_823s2_overlay_show_logo` — REOLINK RLC-823S2 Overlay: show logo  *(unavailable)*
+- `switch.reolink_rlc_823s2_overlay_show_name` — REOLINK RLC-823S2 Overlay: show name  *(unavailable)*
+- `switch.reolink_rlc_823s2_overlay_show_nerd_mode` — REOLINK RLC-823S2 Overlay: show nerd mode  *(unavailable)*
+- `switch.reolink_rlc_823s2_privacy_mode` — REOLINK RLC-823S2 Privacy mode  *(unavailable)*
+- `switch.reolink_rlc_823s2_tracking_person` — REOLINK RLC-823S2 Tracking: person  *(unavailable)*
+- `switch.side_door_camera_detections_motion` — Side Door Camera Motion  *(on)*
+- `switch.side_door_camera_overlay_show_date` — Side Door Camera Overlay: show date  *(off)*
+- `switch.side_door_camera_overlay_show_logo` — Side Door Camera Overlay: show logo  *(on)*
+- `switch.side_door_camera_overlay_show_name` — Side Door Camera Overlay: show name  *(off)*
+- `switch.side_door_camera_overlay_show_nerd_mode` — Side Door Camera Overlay: show nerd mode  *(off)*
+- `switch.side_door_camera_privacy_mode` — Side Door Camera Privacy mode  *(off)*
+- `switch.south_patio_cam_detections_motion` — South Patio Cam Motion  *(on)*
+- `switch.south_patio_cam_overlay_show_date` — South Patio Cam Overlay: show date  *(off)*
+- `switch.south_patio_cam_overlay_show_logo` — South Patio Cam Overlay: show logo  *(on)*
+- `switch.south_patio_cam_overlay_show_name` — South Patio Cam Overlay: show name  *(off)*
+- `switch.south_patio_cam_overlay_show_nerd_mode` — South Patio Cam Overlay: show nerd mode  *(off)*
+- `switch.south_patio_cam_privacy_mode` — South Patio Cam Privacy mode  *(off)*
+- `switch.south_patio_cam_tracking_person` — South Patio Cam Tracking: person  *(off)*
+- `switch.south_side_detections_motion` — South Side Motion  *(on)*
+- `switch.south_side_email_on_event` — South Side Email on event  *(on)*
+- `switch.south_side_ftp_upload` — South Side FTP upload  *(on)*
+- `switch.south_side_infrared_lights_in_night_mode` — South Side Infrared lights in night mode  *(on)*
+- `switch.south_side_overlay_show_date` — South Side Overlay: show date  *(off)*
+- `switch.south_side_overlay_show_logo` — South Side Overlay: show logo  *(on)*
+- `switch.south_side_overlay_show_name` — South Side Overlay: show name  *(off)*
+- `switch.south_side_overlay_show_nerd_mode` — South Side Overlay: show nerd mode  *(off)*
+- `switch.south_side_privacy_mode` — South Side Privacy mode  *(off)*
+- `switch.south_side_push_notifications` — South Side Push notifications  *(on)*
+- `switch.south_side_record` — South Side Record  *(on)*
+- `switch.south_side_record_audio` — South Side Record audio  *(on)*
+- `switch.south_side_siren_on_event` — South Side Siren on event  *(off)*
+- `switch.sunroom_cam_detections_motion` — Sunroom Cam Motion  *(on)*
+- `switch.sunroom_cam_overlay_show_date` — Sunroom Cam Overlay: show date  *(off)*
+- `switch.sunroom_cam_overlay_show_logo` — Sunroom Cam Overlay: show logo  *(on)*
+- `switch.sunroom_cam_overlay_show_name` — Sunroom Cam Overlay: show name  *(off)*
+- `switch.sunroom_cam_overlay_show_nerd_mode` — Sunroom Cam Overlay: show nerd mode  *(off)*
+- `switch.sunroom_cam_privacy_mode` — Sunroom Cam Privacy mode  *(off)*
+- `switch.sunroom_cam_tracking_person` — Sunroom Cam Tracking: person  *(off)*
+- `switch.tumble_dryer_power` — Tumble dryer Power  *(off)*
+- `switch.washing_machine_power` — Washing machine Power  *(off)*
+- `switch.west_patio_detections_motion` — West Patio Motion  *(on)*
+- `switch.west_patio_overlay_show_date` — West Patio Overlay: show date  *(off)*
+- `switch.west_patio_overlay_show_logo` — West Patio Overlay: show logo  *(on)*
+- `switch.west_patio_overlay_show_name` — West Patio Overlay: show name  *(off)*
+- `switch.west_patio_overlay_show_nerd_mode` — West Patio Overlay: show nerd mode  *(off)*
+- `switch.west_patio_privacy_mode` — West Patio Privacy mode  *(off)*
+- `switch.wled_froom_nightlight` — Nightlight  *(unavailable)*
+- `switch.wled_froom_reverse` — Reverse  *(unavailable)*
+- `switch.wled_froom_sync_receive` — Sync receive  *(unavailable)*
+- `switch.wled_froom_sync_send` — Sync send  *(unavailable)*
+- `switch.wled_hallway_nightlight` — WLED-HALLWAY Nightlight  *(unavailable)*
+- `switch.wled_hallway_reverse` — WLED-HALLWAY Reverse  *(unavailable)*
+- `switch.wled_hallway_sync_receive` — WLED-HALLWAY Sync receive  *(unavailable)*
+- `switch.wled_hallway_sync_send` — WLED-HALLWAY Sync send  *(unavailable)*
+- `switch.wled_kitchen_freeze` — WLED-KITCHEN Freeze  *(unavailable)*
+- `switch.wled_kitchen_nightlight` — WLED-KITCHEN Nightlight  *(unavailable)*
+- `switch.wled_kitchen_reverse` — WLED-KITCHEN Reverse  *(unavailable)*
+- `switch.wled_kitchen_sync_receive` — WLED-KITCHEN Sync receive  *(unavailable)*
+- `switch.wled_kitchen_sync_send` — WLED-KITCHEN Sync send  *(unavailable)*
+- `switch.wled_patiobasement_nightlight` — Nightlight  *(unavailable)*
+- `switch.wled_patiobasement_reverse` — Reverse  *(unavailable)*
+- `switch.wled_patiobasement_segment_1_reverse` — Segment 1 reverse  *(unavailable)*
+- `switch.wled_patiobasement_segment_2_reverse` — Segment 2 reverse  *(unavailable)*
+- `switch.wled_patiobasement_segment_3_reverse` — Segment 3 reverse  *(unavailable)*
+- `switch.wled_patiobasement_sync_receive` — Sync receive  *(unavailable)*
+- `switch.wled_patiobasement_sync_send` — Sync send  *(unavailable)*
+- `switch.wled_patioeast_nightlight` — Nightlight  *(unavailable)*
+- `switch.wled_patioeast_reverse` — Reverse  *(unavailable)*
+- `switch.wled_patioeast_sync_receive` — Sync receive  *(unavailable)*
+- `switch.wled_patioeast_sync_send` — Sync send  *(unavailable)*
+- `switch.wled_westpatio_nightlight` — Nightlight  *(unavailable)*
+- `switch.wled_westpatio_reverse` — Reverse  *(unavailable)*
+- `switch.wled_westpatio_segment_1_reverse` — Segment 1 reverse  *(unavailable)*
+- `switch.wled_westpatio_sync_receive` — Sync receive  *(unavailable)*
+- `switch.wled_westpatio_sync_send` — Sync send  *(unavailable)*
+- `switch.zooz_multirelay_relay_3` — Zooz MultiRelay-Relay 3  *(on)*
+
+## todo (1)
+
+- `todo.shopping_list` — Shopping List  *(0)*
+
+## tts (2)
+
+- `tts.google_translate_en_com` — Google Translate en com  *(2025-05-20T04:59:55.648226+00:00)*
+- `tts.home_assistant_cloud` — Home Assistant Cloud  *(unknown)*
+
+## update (40)
+
+- `update.800_series_long_range_usb_controller_firmware` — 800 Series Long Range USB Controller Firmware  *(on)*
+- `update.auto_entities_update` — auto-entities Update  *(off)*
+- `update.bowernas01_dsm_update` — BowerNAS01 DSM update  *(off)*
+- `update.dig_uno_v3_firmware` — Firmware  *(unavailable)*
+- `update.emporia_vue_update` — Emporia Vue Update  *(off)*
+- `update.file_editor_update` — File editor Update  *(on)*
+- `update.get_hacs_update` — Get HACS Update  *(off)*
+- `update.hacs_update` — HACS Update  *(off)*
+- `update.home_assistant_core_update` — Home Assistant Core Update  *(on)*
+- `update.home_assistant_operating_system_update` — Home Assistant Operating System Update  *(on)*
+- `update.home_assistant_supervisor_update` — Home Assistant Supervisor Update  *(off)*
+- `update.home_assistant_yellow_radio_firmware` — Home Assistant Yellow Radio firmware  *(off)*
+- `update.hubitat_update` — Hubitat Update  *(on)*
+- `update.levds_dimmer_1e2e_firmware` — Master Spotlight Firmware  *(off)*
+- `update.levds_dimmer_492f_firmware` — Entryway Light Firmware  *(off)*
+- `update.levds_dimmer_4944_firmware` — Garage carriage lights Firmware  *(off)*
+- `update.levds_dimmer_8e3c_firmware` — Garage West Spotlights Firmware  *(off)*
+- `update.levds_dimmer_c495_firmware` — Patio Basement Lights Firmware  *(off)*
+- `update.levds_dimmer_c49a_firmware` — Side DoorLight Firmware  *(off)*
+- `update.levds_dimmer_c526_firmware` — Basement Patio carriage Lights Firmware  *(off)*
+- `update.levds_dimmer_cf33_firmware` — West Patio SpotLights Firmware  *(unavailable)*
+- `update.levds_dimmer_f1fd_firmware` — Master Carriage Lights Firmware  *(off)*
+- `update.levds_dimmer_f202_firmware` — West Patio Carriage Lights Firmware  *(off)*
+- `update.levds_dimmer_f20a_firmware` — South Patio Carriage Lights Firmware  *(off)*
+- `update.levds_dimmer_f41d_firmware` — Front Door Porch Light Firmware  *(off)*
+- `update.levds_dimmer_f797_firmware` — Garage Porch Lights Firmware  *(off)*
+- `update.matter_server_update` — Matter Server Update  *(on)*
+- `update.mosquitto_broker_update` — Mosquitto broker Update  *(off)*
+- `update.multiple_entity_row_update` — Multiple Entity Row Update  *(off)*
+- `update.shellyfloodg4_d885ace6bf1c_firmware` — shellyfloodg4-d885ace6bf1c Firmware  *(off)*
+- `update.sonoff_water_detector_firmware` — Laundry Flood Detector - Sonoff Firmware  *(off)*
+- `update.sonoff_waterdetector_bath_firmware` — Bath Flood Detector - Sonoff Firmware  *(off)*
+- `update.south_side_firmware` — South Side Firmware  *(off)*
+- `update.wled_froom_firmware` — Firmware  *(unavailable)*
+- `update.wled_hallway_firmware` — WLED-HALLWAY Firmware  *(unavailable)*
+- `update.wled_kitchen_firmware` — WLED-KITCHEN Firmware  *(unavailable)*
+- `update.wled_patiobasement_firmware` — Firmware  *(unavailable)*
+- `update.wled_patioeast_firmware` — Firmware  *(unavailable)*
+- `update.wled_westpatio_firmware` — Firmware  *(unavailable)*
+- `update.z_wave_js_update` — Z-Wave JS Update  *(on)*
+
+## zone (1)
+
+- `zone.home` — 345 N Main Home Assistant  *(0)*
+
