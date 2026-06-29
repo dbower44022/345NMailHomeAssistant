@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+# ha — small management CLI for the 345 N Main Home Assistant server.
+# Reads connection details from ../.env (HA_BASE_URL, HA_TOKEN).
+# Usage: scripts/ha <command> [args]
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ENV_FILE="$ROOT/.env"
+[ -f "$ENV_FILE" ] || { echo "Missing $ENV_FILE (copy .env.example and fill in HA_TOKEN)"; exit 1; }
+HA_BASE_URL=$(grep -E '^HA_BASE_URL=' "$ENV_FILE" | cut -d= -f2-)
+HA_TOKEN=$(grep -E '^HA_TOKEN=' "$ENV_FILE" | cut -d= -f2-)
+AUTH=(-H "Authorization: Bearer $HA_TOKEN")
+API="$HA_BASE_URL/api"
+
+cmd="${1:-help}"; shift || true
+case "$cmd" in
+  ping)        # is the server up?
+    curl -s "${AUTH[@]}" "$API/" -w "\n" ;;
+  config)      # core config summary
+    curl -s "${AUTH[@]}" "$API/config" | python3 -m json.tool ;;
+  states)      # list entities; optional domain filter: scripts/ha states light
+    curl -s "${AUTH[@]}" "$API/states" | python3 -c "
+import sys,json
+flt=sys.argv[1] if len(sys.argv)>1 else None
+for e in sorted(json.load(sys.stdin),key=lambda x:x['entity_id']):
+    if not flt or e['entity_id'].startswith(flt+'.'):
+        print('%-45s %s' % (e['entity_id'], e['state']))" "${1:-}" ;;
+  unavailable) # everything currently unavailable/unknown
+    curl -s "${AUTH[@]}" "$API/states" | python3 -c "
+import sys,json
+for e in sorted(json.load(sys.stdin),key=lambda x:x['entity_id']):
+    if e['state'] in ('unavailable','unknown'):
+        print('%-45s %s' % (e['entity_id'], e['state']))" ;;
+  check)       # validate configuration.yaml (no notification == valid)
+    curl -s -X POST "${AUTH[@]}" -H 'Content-Type: application/json' "$API/services/homeassistant/check_config" -d '{}' -w "\nHTTP %{http_code}\n" ;;
+  restart)     # restart HA core (504 is expected as the connection drops)
+    echo "Restarting HA core..."; curl -s -X POST "${AUTH[@]}" -H 'Content-Type: application/json' "$API/services/homeassistant/restart" -d '{}' -w "HTTP %{http_code}\n" || true ;;
+  reload)      # reload a YAML domain, e.g.: scripts/ha reload automation
+    dom="${1:?usage: ha reload <automation|scripts|scenes|template|...>}"
+    curl -s -X POST "${AUTH[@]}" -H 'Content-Type: application/json' "$API/services/$dom/reload" -d '{}' -w "HTTP %{http_code}\n" ;;
+  help|*)
+    grep -E '^\s+[a-z]+\)' "$0" | sed -E 's/\)\s+#/ —/' | sed 's/^ */  /' ;;
+esac
