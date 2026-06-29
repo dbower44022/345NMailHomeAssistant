@@ -16,6 +16,22 @@ Snapshot as of 2026-06-29. Regenerate entity details with `scripts/ha states`.
 
 ## Climate
 - 3 ecobee thermostats: Family Room, Master Bedroom, Hugh Bedroom.
+  - Family Room & Master Bedroom run in `heat_cool` (range) mode; Hugh Bedroom in single-setpoint `cool` mode.
+- **Overnight setpoint schedule** (`automation.climate_overnight_setpoint_schedule`): one
+  automation re-asserts all three setpoints at each boundary (01:00 / 07:00 / 09:00 / 23:00) and
+  on HA start. For the `heat_cool` units it adjusts only the cool (upper) setpoint and preserves
+  the existing heat (lower) setpoint via templates.
+
+  | Window | Hugh | Family Room (cool) | Master Bedroom (cool) |
+  |---|---|---|---|
+  | 01:00–07:00 | 77° | 77° | 73° |
+  | 07:00–09:00 | 77° | 73° | 73° |
+  | 09:00–23:00 | 73° | 73° | 73° |
+  | 23:00–01:00 | 73° | 77° | 73° |
+
+  Caveat: HA `set_temperature` places a *hold* on the ecobee. The automation self-corrects at each
+  boundary, but the ecobee's own on-device schedule can change a setpoint mid-window until the next
+  boundary. To make HA the single source of truth, flatten the ecobee on-device schedule.
 
 ## Lighting
 - 53 `light` entities: outdoor coach/carriage/flood lights, room dimmers (Leviton/Levoit),
@@ -33,9 +49,10 @@ Snapshot as of 2026-06-29. Regenerate entity details with `scripts/ha states`.
 - **Pushover:** in `setup_retry` — "user is valid but has no active devices" (Pushover
   account needs a registered device; account-side fix, not HA config).
 
-## Automations (4)
+## Automations (5)
 - Water leak alert / Laundry water detected
 - Outdoor LEDs on at sunset / off in morning
+- Climate - Overnight Setpoint Schedule (see Climate section)
 
 ## Known open items
 - Pushover: register a device, or drop in favor of mobile-app notify.
